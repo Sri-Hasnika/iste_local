@@ -53,24 +53,83 @@ button{
 }
 
 footer{
-    background-color: rgb(132, 0, 255);
-    margin: 0 10px;
     color: white;
+    background-color: rgb(61, 59, 59);
+    font-family: "Nunito Sans", sans-serif;
+
 }
-ul{
+
+.f1{
+    
+    display:grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    font-size: .8rem;
+    align-items: center;
+    text-align:left;
+    height:70px;
+}
+
+
+.f1 img{
+    width:100px;
+    height:50px;
+    object-fit: contain;
+}
+
+.f1hr{
+    color:grey
+}
+
+.f2{
+display:flex;
+width:60%;
+justify-content: space-between;
+padding:30px 20px;
+padding-bottom: 0;
+margin-left:0;
+margin-bottom: 0;
+}
+
+.f2 li{
+    padding:5px;
+}
+
+.f2_1,.f2_2,.f2_3{
     list-style-type: none;
 }
-li{
-    margin: 10px
+
+.ftlangp{
+    display:inline
 }
 
-.Ft1{
-    position: relative;
-    left: 100px;
+.ftlang{
+    display: inline;
 }
 
-.Ft2{
-    position: relative;
-    left: 900px;
-    top: -80px
+.ftlangflex{
+    display:flex;
+    font-size: 1.3rem;
+    width:140px;
+    text-align: center;
+    align-items: center;
+    padding:5px 6px;
+    position:relative;
+    bottom:80px;
+    left:80%;
+    border: 1px solid white;
+    justify-content: space-evenly;
+}
+
+.ftlogo{
+    width:150px;
+    margin:0 40px;
+}
+
+.ftcopyrights{
+    font-size:small;
+    display: inline;
+    position:relative;
+    bottom:50px;
+    left:60%;
 }
